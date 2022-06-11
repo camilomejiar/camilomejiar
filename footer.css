@@ -1,0 +1,11 @@
+.footer .container{
+    display: block;
+    background: #242424;
+    padding: 50px;
+    text-align: center;
+    margin-top: 2rem;
+    color: #fcfeff;
+}
+p{
+    text-decoration: none;
+}

@@ -1,0 +1,30 @@
+#bienvenidos p{
+    padding: 1%;
+    text-align: center;
+    width: 70%;
+}
+
+#bienvenidos .contener{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+#bienvenidos .article {
+    margin: 1em auto;
+    
+}
+#bienvenidos img{
+    display: flex;
+    width: 100%;
+    max-width: 400px;  
+}
+
+@media (max-width: 500px) {
+    #bienvenido img{
+        display: flex;
+        width: 90%;
+        max-width: 300px;  
+    }
+
+}

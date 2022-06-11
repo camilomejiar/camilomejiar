@@ -1,0 +1,105 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+form {
+    width: 450px;
+    margin: auto;
+    background: #242424;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+h2{
+    
+    color: #d28f1b;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+h3{
+    text-align: center;
+    margin: 1rem;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contacto p {
+   text-align: center;
+   width: 70%;
+}
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+    font-family: 'Quicksand', sans-serif;
+       
+}
+.form__cta {
+    background: #242424;
+    color: #fcfeff;
+    transition: all 0.5s;
+    border-radius: 5px;
+    
+}
+.form__cta:hover {
+    background: #d28f1b;
+    cursor: pointer;
+    color: #333333;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+     
+}
+
+#container .article {
+    margin: 40px;
+}
+
+#contacto img{
+    width: 25%;
+    height: 50%;
+}
+
+#contacto h4{
+    text-align: center;
+    
+}
+a{
+    text-decoration: none;
+}
+@media (max-width: 850px) {
+    form {
+        width: 265px;
+        margin: auto;
+        background: #242424;
+        padding: 10px 10px;
+        box-sizing: border-box;
+        margin-top: 3px;
+        border-radius: 5px;
+    }
+    #boton:hover {
+        background: #d28f1b;
+        cursor: pointer;
+        color: #333333;
+    }
+}
